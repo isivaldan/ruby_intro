@@ -4,7 +4,7 @@ gastos       = ARGV[2].to_f
 
 utilidad = (precio_venta*usuarios)-gastos
 
-if(utilidad<0)
+if(utilidad<=0)
     puts "la utilidad es #{utilidad.to_i} sin el 35%"
 else
     utilidaddesc=utilidad*0.65
