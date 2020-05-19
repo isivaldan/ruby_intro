@@ -67,6 +67,7 @@ when "tijera"
     else
         puts "computador juega tijera\nempate"
     end
+
 else
     puts"argumento invalido: debe ser piedra, papel o tijera"
 end

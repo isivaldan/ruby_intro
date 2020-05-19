@@ -11,5 +11,5 @@ elsif (num2 > num1) && (num2 > num3) && (num2 > num4)
 elsif (num3 > num1) && (num3 > num2) && (num3 > num4)
     puts num3
 else
-    num4
+    puts num4
 end 
