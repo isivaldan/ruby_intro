@@ -4,9 +4,9 @@ def scan_addicts(arr)
     results = []
     n = arr.count
     n.times do |i|
-        if arr[i]<= 90
+        if arr[i]< 90
             results.push 'bien'
-        elsif  arr[i] <= 180
+        elsif  arr[i] < 180
             results.push 'mejorable'
         else
             results.push 'mal'
