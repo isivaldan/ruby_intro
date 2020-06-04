@@ -8,4 +8,4 @@ while i < n2
     end
     i+= 1
 end
-print "\n"
+print "\n"c
