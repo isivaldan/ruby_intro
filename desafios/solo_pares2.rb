@@ -1,5 +1,5 @@
 n = ARGV[0].to_i
-n2 = n*2
+n2 = n*2+1
 i = 1
 
 while i < n2
