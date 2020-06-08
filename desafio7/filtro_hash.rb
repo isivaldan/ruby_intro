@@ -5,7 +5,7 @@ Diciembre:72000}
 def salefilter (hash)
     sale ={}
     hash.each do |k,v|
-        sale = v if v > 70000
+        sale[k] = v if v > 70000
     end
     sale
 end
